@@ -13,3 +13,9 @@
     /* align-items:center; */
     align-content:center;
 }
+footer{
+        font-family: "Playwrite IS", cursive;
+        font-optical-sizing: auto;
+        font-weight: 23px;;
+        font-style: normal;
+      }

@@ -14,23 +14,30 @@
     align-content:center;
 }
 header{
+    display:table;
     /* background-image:linear-gradient() */
+    width:100vw;
     background-color: black;
-    height:43px;
+    height:auto;
     justify-content:center;
     align-content:center;
+    text-align:center;
 
 }
-a:hover{
+#qw:hover{
     background-image:linear-gradient(#7f8c8dc0,#000000a1);
     border-radius:10px;
 }
-a{
+#qw{
+    /* display:inline-block; */
     /* background-color: red; */
     text-decoration:none;
     color:white;
-    padding:1% 3%;
+    padding:8px 32px;
+    /* padding-top:1px; */
     font-size:15px;
+    float:left;
+    margin:3px 6px;
 }
 footer{
         font-family: "Playwrite IS", cursive;
@@ -55,4 +62,35 @@ footer{
 main{
     background-image:linear-gradient(#7f8c8dc0,#000000a1);
     color:aliceblue
+}
+#rs{
+    /* width:45px; */
+    padding:8px 18px;
+    /* padding-top:1px; */
+    font-size:15px;
+    float:right;
+    margin:3px 0px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.568),rgba(128, 128, 128, 0.587));
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    animation-name:aniyt;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes aniyt{
+0%{
+    width:0vw;
+    padding:8px 0px;
+    /* padding-left:32px;
+    padding-right:0px; */
+}
+100%{
+    width:45px;
+    padding:8px 25px;
+    /* padding-left:32px;
+    padding-right:32px; */
+}
 }

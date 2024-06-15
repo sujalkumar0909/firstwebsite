@@ -13,6 +13,14 @@
     /* align-items:center; */
     align-content:center;
 }
+header{
+    background-color: black;
+}
+a{
+    color:white;
+    text-decoration: none;
+    padding:2vw;
+}
 footer{
         font-family: "Playwrite IS", cursive;
         font-optical-sizing: auto;

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    /* display:flex; */
+    text-align:center;
+    background-color: black;
+    color:white;
+    height:3vw;
+    font-size:1vw;
+    justify-content:center;
+    /* align-items:center; */
+    align-content:center;
+}

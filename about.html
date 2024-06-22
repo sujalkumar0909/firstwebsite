@@ -18,6 +18,20 @@
         .nd{
             background-image:linear-gradient(#7F8C8D,#000000);
             border-radius:10px;
+        }.firs{
+            transform: translate(0vw);
+        }
+        .seco{
+            transform:translate(-8vw);
+        }.thir{
+            transform:translate(8vw);
+        }
+        .fourth{
+            transform:translate(16vw);
+        }
+        .ina{
+            overflow:hidden;
+            display:flex;
         }
     </style>
 </head>
@@ -27,15 +41,93 @@
             <div>
                 <a class=st id="qw" href="./">Home</a>
                 <a class=nd id="qw" href="./about.html">About</a>
-                <a id="rs" href="https://youtube.com"><img src="img/yt.png" alt="error" height="25px"></a>
+                <a id="rs" href="https://youtube.com"><img class=i src="img/yt.png" alt="error" height="25px"></a>
             </div>
         </nav>
     </header>
     <main>
-        about
+        <!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Image Slider</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="https://legendmcpe.pages.dev/images/dragon_ball_z.png" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Legend</span>
+            <h2>
+              Minecraft mod 
+            </h2>
+            <a href="#" class="button" id="ra">Download</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="https://legendmcpe.pages.dev/images/parasites.png" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Legend</span>
+            <h2>
+              Minecraft Mod
+            </h2>
+            <a href="#" class="button" id="ti">Download</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="https://legendmcpe.pages.dev/images/sirenhead.png" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Legend</span>
+            <h2>
+              Minecraft mod 
+            </h2>
+            <a href="#" class="button" id="on">Download</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
     </main>
     <footer>
         <p class="text-center">Copyright &copy;</p>
     </footer>
 </body>
+
 </html>
